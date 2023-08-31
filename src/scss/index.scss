@@ -3,5 +3,9 @@
 @import "components/buttons";
 
 body {
-    background-color: $blue-100;
+    background-color: $primary-bg-subtle;
+}
+
+form {
+    padding: 20px;
 }
