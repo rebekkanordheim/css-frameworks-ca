@@ -11850,12 +11850,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.btn-checkout {
-  border: 5px solid pink;
-}
-
 body {
-  background: red;
+  background: rgba(162, 113, 249, 0.472);
 }
 
 /*# sourceMappingURL=index.css.map */
