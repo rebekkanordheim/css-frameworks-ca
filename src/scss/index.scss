@@ -1,6 +1,7 @@
 @import "variables";
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../scss/components/buttons";
 
 body {
-    background: rgba(162, 113, 249, 0.472);
+    background: $orange-100;
 }

@@ -11850,8 +11850,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/* .btn-primary {
+    border: 5px solid pink;
+} */
 body {
-  background: rgba(162, 113, 249, 0.472);
+  background: #ffe5d0;
 }
 
 /*# sourceMappingURL=index.css.map */
