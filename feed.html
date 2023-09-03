@@ -34,19 +34,7 @@
           </div>
         </div>
       </nav>
-      <div class="dropdown mt-4 p-3">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-          Sort By
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="sortDropdown">
-          <li>
-            <a class="dropdown-item" href="#">Date published</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">Most views</a>
-          </li>
-        </ul>
-      </div>
+
       <div class="container mt-4 shadow-sm p-3 mb-5 bg-body-tertiary rounded">
         <div class="row justify-content-md-center column-gap-3">
             <div class="col-12 col-md-2 bg-white text-center h-25">
@@ -57,10 +45,25 @@
                 <div class="row mb-3">
                     <div class="col-md-12 bg-white">
                       <div class="mb-3 py-5 px-5">
-                        <label for="formGroupExampleInput" class="form-label"><button type="button" class="btn btn-primary btn-sm">Add Photo</button></label>
+                        <label for="formGroupExampleInput" class="form-label"></label>
                         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="What's on your mind today...">
+                        <hr>
+                        <button type="button" class="btn btn-primary btn-sm">Add Post</button>
                       </div>
                     </div>
+                </div>
+                <div class="dropdown mt-4 p-3">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sort By
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#">Date published</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Most views</a>
+                    </li>
+                  </ul>
                 </div>
                 <div class="row mb-3">
                   <div class="col-md-12 bg-white px-5 py-4">
@@ -94,10 +97,6 @@
                     </p>
                 </div>
             </div>
-            </div>
-            <div class="col-md-3 bg-white text-center">
-                <img src="/images/ad.JPG" class="img-fluid rounded-pill">
-                This is an ad...buy ice cream...or else
             </div>
         </div>
     </div>
